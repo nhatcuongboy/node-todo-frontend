@@ -5,7 +5,7 @@ node {
     env.AWS_ECR_LOGIN=true
     def newApp
     def registry = 'nhatcuongboy/test'
-    def registryCredential = 'docker-hub'
+    def registryCredential = 'dockerhub'
 	
 	stage('Git') {
 		git 'https://github.com/gustavoapolinario/node-todo-frontend'
